@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "build": "parcel build ./index.html --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
     "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "parcel": "1.12.4"
   }
 }
